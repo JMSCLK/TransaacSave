@@ -1,0 +1,17 @@
+TransacSave/
+│
+├── main.py                 # Point d'entrée de l'app
+│
+├── core/
+│   ├── transaction.py      # Logique métier (ajout, validation)
+│   ├── file_manager.py     # Création/lecture des fichiers CSV/JSON
+│   └── utils.py            # Fonctions utilitaires (date, heure...)
+│
+├── ui/
+│   ├── tab_accueil.py      # Onglet Accueil
+│   ├── tab_saisie.py       # Onglet Enregistrement
+│   └── tab_historique.py   # Onglet Historique
+│
+└── data/                   # Dossier des fichiers de sauvegarde
+    ├── 2026-05-08.csv
+    └── 2026-05-07.csv
