@@ -158,8 +158,6 @@ class TransacSaveApp(App):
         """
         Construit et retourne le widget racine de l'application.
         """
-        # Taille de la fenêtre simulant un écran mobile
-        Window.size = (400, 700)
 
         # ── Conteneur racine : header + panel ──
         racine = BoxLayout(orientation="vertical")
